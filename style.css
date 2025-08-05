@@ -1,0 +1,142 @@
+/* 基本設定 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f4f4f9;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+/* ヘッダーとナビゲーション */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #3498db;
+}
+
+/* プロフィール写真 */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #3498db;
+}
+
+/* ソーシャルリンク */
+.social-links a {
+    color: #3498db;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* プロジェクトカード */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #34495e;
+}
+
+/* お問い合わせ */
+.email-link {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.email-link:hover {
+    background: #2980b9;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+/* 学歴と研究内容のアイテム */
+.education-item, .research-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3, .research-item h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+/* 履修科目リスト */
+.course-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-list li {
+    background: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
